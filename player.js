@@ -156,7 +156,7 @@ function initializePlayer(client) {
     
                 if (!nextTrack) {
                     player.destroy();
-                    await channel.send("⚠️ **No more tracks to autoplay. Disconnecting...**");
+                    await channel.send("⚠️ **No more tracks to autoplay. Bas Aur Nhi Hota...**");
                 }
             } else {
                 console.log(`Autoplay is disabled for guild: ${guildId}`);
