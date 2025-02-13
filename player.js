@@ -291,7 +291,7 @@ async function sendEmbed(channel, message) {
 function adjustVolume(player, channel, amount) {
     const newVolume = Math.min(100, Math.max(10, player.volume + amount));
     if (newVolume === player.volume) {
-        sendEmbed(channel, amount > 0 ? '🔊 **Volume is already at maximum!**' : '🔉 **Volume is already at minimum!**');
+        sendEmbed(channel, amount > 0 ? '🔊 **Behra hai kya!**' : '🔉 **Volume is already at minimum!**');
     } else {
         player.setVolume(newVolume);
         sendEmbed(channel, `🔊 **Volume changed to ${newVolume}%!**`);
