@@ -161,7 +161,7 @@ function initializePlayer(client) {
             } else {
                 console.log(`Autoplay is disabled for guild: ${guildId}`);
                 player.destroy();
-                await channel.send("🎶 **Queue has ended. Autoplay is disabled.**");
+                await channel.send("🎶 **Queue has ended. Bas aur nahi hota bhai.**");
             }
         } catch (error) {
             console.error("Error handling autoplay:", error);
