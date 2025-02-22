@@ -15,10 +15,10 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "ChalresNaig Node (Backup)",
-      password: "charlesnaig-lavalink",
-      host: "212.227.65.132",
-      port: 10296,
+      name: "Public Lavalink v4 NonSSL",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lava-v4.ajieblogs.eu.org",
+      port: 80,
       secure: false
     }
   ]
